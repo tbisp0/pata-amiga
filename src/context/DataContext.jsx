@@ -31,13 +31,13 @@ export function DataProvider({ children }) {
     try {
       const saved = localStorage.getItem(SETTINGS_STORAGE_KEY);
       return saved ? JSON.parse(saved) : {
-        whatsappNumber: '5519998765432',
+        whatsappNumber: '5519990137380',
         adminEmail: 'atendimento@pataamiga.com.br',
         reminderDaysBefore: 3
       };
     } catch {
       return {
-        whatsappNumber: '5519998765432',
+        whatsappNumber: '5519990137380',
         adminEmail: 'atendimento@pataamiga.com.br',
         reminderDaysBefore: 3
       };

@@ -1,0 +1,9 @@
+# Bloqueio total de rastreadores e indexação de motores de busca
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /

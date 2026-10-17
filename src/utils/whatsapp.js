@@ -1,5 +1,5 @@
-// Telefone padrão oficial de atendimento da Pata Amiga (configurável)
-export const DEFAULT_WHATSAPP_NUMBER = '5519998765432';
+// Telefone padrão oficial de atendimento da Pata Amiga
+export const DEFAULT_WHATSAPP_NUMBER = '5519990137380';
 
 /**
  * Sanitiza telefone deixando apenas dígitos e garantindo o código 55 do Brasil
