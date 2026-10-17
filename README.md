@@ -74,19 +74,17 @@ Um erro fatal de startups em estágio inicial é queimar capital automatizando p
 
 ## 4. 💡 O Mega Prompt e as Correções Posteriores
 
-### A Evolução do Prompt: Do "auFOOD Burocrático" para o "Pata Amiga de Alta Conversão"
-O projeto nasceu a partir de um prompt inicial para plataformas no-code/low-code e passou por refatorações estratégicas essenciais:
+O desenvolvimento do **Pata Amiga** foi orientado pela especificação técnica detalhada no arquivo [prompt_pata_amiga.md](prompt_pata_amiga.md). Durante o processo de concepção, validação e refinamento de produto, foram solicitadas as seguintes correções e otimizações estratégicas:
 
-* **Versão Preliminar ([prompt_lovable.md](prompt_lovable.md) — auFOOD):**
-  * Trazia um formulário longo e cansativo com mais de 10 perguntas (gasto mensal, frequência, peso exato, porte, idade, restrições).
-  * **Problema identificado:** Abandono de funil massivo em dispositivos móveis. Ninguém preenche questionários longos pelo celular.
-  * Exigia integração obrigatória com Supabase Edge Functions e Resend API com domínio próprio verificado.
-
-* **Versão Final Consolidada ([prompt_pata_amiga.md](prompt_pata_amiga.md) — Pata Amiga):**
-  * **Redução Drástica de Fricção:** Formulário otimizado para **4 campos indispensáveis**, permitindo preenchimento em menos de 45 segundos.
-  * **Branding Afetivo:** Substituição de cards frios por **depoimentos dos próprios pets** (*Thor farejador*, *Mia auditora de petiscos* e *Bolinha fiscal de portaria*).
-  * **Flag de Prevenção de Conflito (`client_initiated_chat`):** Quando o tutor clica em chamar no WhatsApp pós-envio, o sistema avisa o atendente no painel que o cliente já puxou o contato.
-  * **Independência de Ferramentas Pagas:** Arquitetura desacoplada que roda 100% no navegador via `localStorage` com chaveamento opcional para Supabase Cloud.
+1. **Redução Cirúrgica de Fricção no Onboarding:**
+   * O formulário foi otimizado para **apenas 4 campos indispensáveis** (Nome, WhatsApp com máscara, Bairro de Campinas e Ração consumida), permitindo a conclusão em menos de 45 segundos.
+   * A apuração de detalhes operacionais (peso exato, dosagem diária e frequência) foi intencionalmente transferida para o atendimento consultivo no WhatsApp, eliminando barreiras de preenchimento em dispositivos móveis.
+2. **Prova Social Afetiva ("Pets Satisfeitos"):**
+   * Em vez de avaliações corporativas genéricas, criamos depoimentos divertidos e carinhosos sob a ótica dos próprios bichinhos (*Thor*, *Mia* e *Bolinha*), gerando conexão imediata com a comunidade pet.
+3. **Gestão de SLA e Prevenção de Conflito de Atendimento:**
+   * Implementação de semáforo visual de tempo no painel administrativo e da flag automática `client_initiated_chat`, sinalizando quando o tutor já puxou a conversa no WhatsApp para evitar abordagens duplicadas da equipe.
+4. **Blindagem de Privacidade e Telefone de Operação:**
+   * Configuração do canal oficial de WhatsApp e proteção completa contra indexação em buscadores (meta tags `noindex, nofollow` e arquivo `robots.txt`), preservando o ambiente como projeto de portfólio.
 
 ---
 
