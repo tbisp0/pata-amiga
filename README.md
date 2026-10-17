@@ -1,27 +1,27 @@
-# 🐾 Pata Amiga — MVP de Assinatura Hiperlocal de Ração e Mimos
+# Pata Amiga — MVP de Assinatura Hiperlocal de Ração e Mimos
 
 > **Projeto de Validação de Produto (Lean Startup & Product Management)**  
 > **Local de Atuação:** Campinas/SP (Foco em Condomínios Verticais)  
 > **Stack Técnica:** React 18, Vite, Tailwind CSS, Lucide Icons, LocalStorage Resiliente & Supabase-Ready.  
-> **Status:** 🟢 Aplicação Funcional, Responsiva e Pronta para Deploy Gratuito.
+> **Status:** Aplicação Funcional, Responsiva e Pronta para Deploy Gratuito.
 
 ---
 
-## 🔗 Endereço da Aplicação Publicada
+## Endereço da Aplicação Publicada
 
-* **Deploy de Produção:** [https://pata-amiga.vercel.app](https://pata-amiga.vercel.app) *(ou link gerado na sua Vercel/Netlify)*
+* **Deploy de Produção:** [https://pata-amiga.vercel.app](https://pata-amiga.vercel.app)
 * **Acesso Administrativo:** Clique no ícone de **Engrenagem** no topo direito ou acesse via `/admin`.
 * **PIN de Acesso Demonstrativo:** `1234`
 
 ---
 
-## 📌 Sumário Executivo
+## Sumário Executivo
 
 O **Pata Amiga** é uma solução de assinatura hiperlocal de rações super premium e petiscos naturais desidratados voltada para tutores de cães e gatos residentes em condomínios de Campinas/SP. O projeto foi desenhado sob a ótica de **alta conversão mobile-first**, unindo **logística agrupada por rota**, **atendimento consultivo humanizado via WhatsApp** e **painel de gestão operacional de SLA e MRR**.
 
 ---
 
-## 1. 🎯 A Dor Escolhida e por que ela Vale um Negócio
+## 1. A Dor Escolhida e por que ela Vale um Negócio
 
 ### A Tríplice Dor do Tutor em Condomínio Vertical
 1. **O Fardo Físico do "Saco Pesado":** Tutores de cães de médio e grande porte precisam transportar fardos de 10kg a 15kg do porta-malas do carro até o carrinho de compras do condomínio, elevadores e despensa do apartamento. É uma tarefa fisicamente desgastante e desconfortável.
@@ -35,7 +35,7 @@ O **Pata Amiga** é uma solução de assinatura hiperlocal de rações super pre
 
 ---
 
-## 2. 📊 Tamanho de Mercado e Business Model Canvas
+## 2. Tamanho de Mercado e Business Model Canvas
 
 ### Dimensionamento do Mercado (TAM, SAM, SOM)
 * **TAM (Total Addressable Market):** Mercado pet brasileiro, o 3º maior do mundo, faturando mais de **R$ 70 bilhões/ano**, onde alimentação representa mais de **75%** dos gastos.
@@ -54,7 +54,7 @@ O **Pata Amiga** é uma solução de assinatura hiperlocal de rações super pre
 
 ---
 
-## 3. 🧪 A Tese do MVP e o que Ficou Manual de Propósito (Concierge MVP)
+## 3. A Tese do MVP e o que Ficou Manual de Propósito (Concierge MVP)
 
 ### A Tese Central
 > *"Tutores de classe média e alta em condomínios de Campinas preferem assinar um serviço local de entrega programada de ração se receberem comodidade total (sem carregar peso), atendimento humanizado pelo WhatsApp e mimos afetivos para seu pet, em vez de comprar repetidamente em grandes varejistas."*
@@ -66,13 +66,13 @@ Um erro fatal de startups em estágio inicial é queimar capital automatizando p
    * O site coleta apenas **4 dados essenciais** (Nome, WhatsApp, Bairro e Ração habitual).
    * A proposta exata e a recomendação de mimo são calculadas e enviadas por um atendente real no WhatsApp via links diretos `wa.me`, gerando conexão e permitindo entender nuances que nenhum formulário engessado captura.
 2. **Gestão Operacional de SLA Visual:**
-   * Em vez de pagar APIs caras de CRM ou disparadores de e-mail externos (ex.: Resend/Sendgrid), o painel conta com um semáforo de SLA por tempo decorrido (Verde <10m, Amarelo 10-20m, Vermelho >20m), garantindo disciplina de resposta ágil sem custo de infraestrutura.
+   * Em vez de pagar APIs caras de CRM ou disparadores de e-mail externos, o painel conta com um semáforo de SLA por tempo decorrido (Verde <10m, Amarelo 10-20m, Vermelho >20m), garantindo disciplina de resposta ágil sem custo de infraestrutura.
 3. **Cobrança Combinada via Pix ou Link de Cartão:**
    * A recorrência inicial é acordada diretamente com o tutor (Pix agendado ou link avulso), sem travar o limite do cartão do cliente e sem taxas de gateways de assinatura nos primeiros meses.
 
 ---
 
-## 4. 💡 O Mega Prompt e as Correções Posteriores
+## 4. O Mega Prompt e as Correções Posteriores
 
 O desenvolvimento do **Pata Amiga** foi orientado pela especificação técnica detalhada no arquivo [prompt_pata_amiga.md](prompt_pata_amiga.md). Durante o processo de concepção, validação e refinamento de produto, foram solicitadas as seguintes correções e otimizações estratégicas:
 
@@ -88,7 +88,7 @@ O desenvolvimento do **Pata Amiga** foi orientado pela especificação técnica 
 
 ---
 
-## 5. 🚀 Oportunidades Estratégicas de PO (Roadmap de Escala)
+## 5. Oportunidades Estratégicas de PO (Roadmap de Escala)
 
 Como visão de futuro e expansão de margem do negócio, mapeamos 4 alavancas estratégicas:
 
@@ -99,7 +99,7 @@ Como visão de futuro e expansão de margem do negócio, mapeamos 4 alavancas es
 
 ---
 
-## 6. 📱 Evidências Visuais e Demonstração da Aplicação
+## 6. Evidências Visuais e Demonstração da Aplicação
 
 ### Experiência do Tutor (Mobile-First)
 
@@ -119,7 +119,7 @@ Como visão de futuro e expansão de margem do negócio, mapeamos 4 alavancas es
 
 ---
 
-## 7. 🛠️ Como Executar e Publicar Gratuitamente
+## 7. Como Executar e Publicar Gratuitamente
 
 ### Execução Local em 3 Passos
 ```bash
@@ -148,7 +148,7 @@ npm run dev
 
 ---
 
-## 🔒 Checklist de Segurança e Integridade
+## Checklist de Segurança e Integridade
 - [x] Nenhuma chave de API, senha ou token foi versionada no código.
 - [x] O arquivo `.gitignore` protege pastas de dependências e variáveis locais.
 - [x] Todos os links de imagens e arquivos citados existem no repositório.
