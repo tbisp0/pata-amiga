@@ -9,7 +9,7 @@
 
 ## Endereço da Aplicação Publicada
 
-* **Deploy de Produção:** [https://pata-amiga.vercel.app](https://pata-amiga.vercel.app)
+* **Deploy de Produção:** [https://pata-amiga-6mi7mubzj-tarcisiobispodearaujo-6203s-projects.vercel.app/](https://pata-amiga-6mi7mubzj-tarcisiobispodearaujo-6203s-projects.vercel.app/)
 * **Acesso Administrativo:** Clique no ícone de **Engrenagem** no topo direito ou acesse via `/admin`.
 * **PIN de Acesso Demonstrativo:** `1234`
 
